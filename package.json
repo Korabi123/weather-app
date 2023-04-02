@@ -1,0 +1,20 @@
+{
+  "name": "weather-app-by-korab",
+  "version": "1.0.0",
+  "description": "Simple but sleek weather app design",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Weather",
+    "Api",
+    "Design",
+    "Modern"
+  ],
+  "author": "Korab Imeri",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
