@@ -70,7 +70,7 @@ function dayOfTheWeek(day, month, year) {
 //? Function that fetches and displays data from the WeatherAPI
 function fetchWeatherData() {
     //? Fetch the data and dynamicaly add the city name with template literals
-    const ApiKey = process.env.ApiKey; //! THIS IS THE API KEY REMOVE THIS COMENT WHEN PUSHING CODE TO GITHUB 24555ad85d62471c911194933231603 
+    const ApiKey = process.env.ApiKey; 
     fetch(`http://api.weatherapi.com/v1/current.json?key=${ApiKey}&q=${cityInput}&aqi=no`)
     //? Take the data (which is in JSON format and convert it to a regular JS object)
     .then(response => response.json())
